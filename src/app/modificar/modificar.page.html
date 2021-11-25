@@ -1,0 +1,22 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary" routerLink="/panel">
+        <ion-icon slot="icon-only" name="arrow-back" color="tertiary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="header">
+    <h1>Usuario: <br />Email@email</h1>
+  </div>
+  <form id="form">
+    <app-input placeholder="Email"></app-input>
+    <app-input type="password" placeholder="Password"></app-input>
+    <ion-button expand="block" shape="round" color="tertiary">Modificar</ion-button>
+  </form>
+</ion-content>
